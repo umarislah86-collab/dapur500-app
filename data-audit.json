@@ -1,0 +1,21 @@
+{
+  "recipes": 518,
+  "counts": {
+    "digital": 261,
+    "image": 257
+  },
+  "books": {
+    "jimat-poket": 100,
+    "klasik-tradisional": 30,
+    "rice-cooker": 30,
+    "sihat": 50,
+    "western": 51,
+    "thai": 52,
+    "dessert": 30,
+    "pizza": 30,
+    "low-calorie": 30,
+    "air-fryer": 115
+  },
+  "source": "10 user-supplied PDFs",
+  "policy": "Original pages retained; legacy OCR not exposed; digital text re-extracted from original PDFs."
+}
