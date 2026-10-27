@@ -1,4 +1,4 @@
-# Dapur500 App
+﻿# Dapur500 App
 
 Standalone, Malay-language PWA for the user's ten-book recipe collection. Developed independently of `umarislah86-collab/dapur500`; that repository and its live site are untouched.
 
@@ -26,7 +26,7 @@ npm run check
 
 The original public repository provided the 518-record index, titles, tags and categories. Text was re-extracted from the original PDFs supplied by the user. All source pages are included locally as JPEG reference images. `data-audit.json` records the collection counts.
 
-261 records have digital text extracted from PDFs. 257 are image-only: the previous repository's corrupted OCR is deliberately excluded. Their exact original pages remain readable; automated ingredient lists and automatic serving scaling are unavailable for those image-only records. Add their shopping ingredients manually while viewing the original page.
+261 records have digital text extracted from PDFs. The other 257 scanned recipes have fresh OCR text with ingredients, preparation steps and a searchable OCR transcript. Each OCR record is marked for review and links to its original source page; OCR is not manually verified line by line, and recognition or layout errors may remain. Check the page image for measurements and instructions before cooking. OCR recipes support ingredient scaling, but scaling does not validate the extracted quantities.
 
 Digital text extraction is not a manual line-by-line editorial verification. Original page images are the reference for all measurements and instructions. Metadata inherited from the previous index may need correction. No recipes, photographs, nutrition, durations or serving counts are fabricated or imported from external collections. Recipe multipliers change the first numeric quantity in each ingredient; they do not change cooking temperatures or times. Unquantified ingredients remain unchanged.
 
@@ -36,6 +36,7 @@ No login, Firebase, backend, paid tier, family cloud sharing, external recipe im
 
 ## Publish independently
 
-The Pages workflow validates the app and uploads only static app assets. In repository **Settings → Pages**, choose **GitHub Actions** as source. Deployments use relative paths and work under `/dapur500-app/`.
+The Pages workflow validates the app and uploads only static app assets. In repository **Settings â†’ Pages**, choose **GitHub Actions** as source. Deployments use relative paths and work under `/dapur500-app/`.
 
 Source PDFs and their content retain their original owners' rights. This project is a personal collection viewer; no additional redistribution licence is granted for book content.
+

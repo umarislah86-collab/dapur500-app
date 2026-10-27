@@ -2,7 +2,7 @@
   "recipes": 518,
   "counts": {
     "digital": 261,
-    "image": 257
+    "ocr": 257
   },
   "books": {
     "jimat-poket": 100,
@@ -17,5 +17,2334 @@
     "air-fryer": 115
   },
   "source": "10 user-supplied PDFs",
-  "policy": "Original pages retained; legacy OCR not exposed; digital text re-extracted from original PDFs."
+  "policy": "Original PDF text used where available; 257 scanned recipes processed with fresh English OCR and layout-based section ordering. Original pages remain authoritative; OCR is not manually verified.",
+  "ocr": {
+    "engine": "RapidOCR PP-OCRv4 English",
+    "processed": 257,
+    "structured": 257,
+    "manualReviewRequired": true,
+    "records": [
+      {
+        "id": "airfryer-1",
+        "book": "air-fryer",
+        "ingredients": 3,
+        "steps": 5,
+        "meanConfidence": 0.966,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "thai-1",
+        "book": "thai",
+        "ingredients": 21,
+        "steps": 7,
+        "meanConfidence": 0.966,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-1",
+        "book": "dessert",
+        "ingredients": 9,
+        "steps": 7,
+        "meanConfidence": 0.978,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "pizza-1",
+        "book": "pizza",
+        "ingredients": 20,
+        "steps": 6,
+        "meanConfidence": 0.973,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "lowcal-1",
+        "book": "low-calorie",
+        "ingredients": 17,
+        "steps": 5,
+        "meanConfidence": 0.97,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-2",
+        "book": "air-fryer",
+        "ingredients": 8,
+        "steps": 5,
+        "meanConfidence": 0.973,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "thai-2",
+        "book": "thai",
+        "ingredients": 18,
+        "steps": 9,
+        "meanConfidence": 0.967,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-2",
+        "book": "dessert",
+        "ingredients": 11,
+        "steps": 9,
+        "meanConfidence": 0.976,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "pizza-2",
+        "book": "pizza",
+        "ingredients": 20,
+        "steps": 4,
+        "meanConfidence": 0.969,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "lowcal-2",
+        "book": "low-calorie",
+        "ingredients": 12,
+        "steps": 6,
+        "meanConfidence": 0.964,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "airfryer-3",
+        "book": "air-fryer",
+        "ingredients": 7,
+        "steps": 5,
+        "meanConfidence": 0.971,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "thai-3",
+        "book": "thai",
+        "ingredients": 18,
+        "steps": 9,
+        "meanConfidence": 0.963,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-3",
+        "book": "dessert",
+        "ingredients": 17,
+        "steps": 9,
+        "meanConfidence": 0.976,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "pizza-3",
+        "book": "pizza",
+        "ingredients": 19,
+        "steps": 7,
+        "meanConfidence": 0.971,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "lowcal-3",
+        "book": "low-calorie",
+        "ingredients": 12,
+        "steps": 6,
+        "meanConfidence": 0.964,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "airfryer-4",
+        "book": "air-fryer",
+        "ingredients": 3,
+        "steps": 5,
+        "meanConfidence": 0.979,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "thai-4",
+        "book": "thai",
+        "ingredients": 19,
+        "steps": 10,
+        "meanConfidence": 0.967,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-4",
+        "book": "dessert",
+        "ingredients": 13,
+        "steps": 9,
+        "meanConfidence": 0.985,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "pizza-4",
+        "book": "pizza",
+        "ingredients": 23,
+        "steps": 7,
+        "meanConfidence": 0.973,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "lowcal-4",
+        "book": "low-calorie",
+        "ingredients": 15,
+        "steps": 4,
+        "meanConfidence": 0.977,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-5",
+        "book": "air-fryer",
+        "ingredients": 9,
+        "steps": 5,
+        "meanConfidence": 0.984,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-5",
+        "book": "thai",
+        "ingredients": 19,
+        "steps": 11,
+        "meanConfidence": 0.969,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-5",
+        "book": "dessert",
+        "ingredients": 16,
+        "steps": 8,
+        "meanConfidence": 0.968,
+        "lowConfidenceLines": 2,
+        "structured": true
+      },
+      {
+        "id": "pizza-5",
+        "book": "pizza",
+        "ingredients": 20,
+        "steps": 6,
+        "meanConfidence": 0.973,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "lowcal-5",
+        "book": "low-calorie",
+        "ingredients": 16,
+        "steps": 5,
+        "meanConfidence": 0.974,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "airfryer-6",
+        "book": "air-fryer",
+        "ingredients": 3,
+        "steps": 5,
+        "meanConfidence": 0.979,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-6",
+        "book": "thai",
+        "ingredients": 19,
+        "steps": 10,
+        "meanConfidence": 0.966,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "dessert-6",
+        "book": "dessert",
+        "ingredients": 19,
+        "steps": 9,
+        "meanConfidence": 0.979,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "pizza-6",
+        "book": "pizza",
+        "ingredients": 23,
+        "steps": 5,
+        "meanConfidence": 0.969,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "lowcal-6",
+        "book": "low-calorie",
+        "ingredients": 14,
+        "steps": 4,
+        "meanConfidence": 0.975,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-7",
+        "book": "air-fryer",
+        "ingredients": 8,
+        "steps": 5,
+        "meanConfidence": 0.982,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "thai-7",
+        "book": "thai",
+        "ingredients": 17,
+        "steps": 7,
+        "meanConfidence": 0.973,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-7",
+        "book": "dessert",
+        "ingredients": 17,
+        "steps": 10,
+        "meanConfidence": 0.982,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "pizza-7",
+        "book": "pizza",
+        "ingredients": 23,
+        "steps": 6,
+        "meanConfidence": 0.973,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "lowcal-7",
+        "book": "low-calorie",
+        "ingredients": 16,
+        "steps": 6,
+        "meanConfidence": 0.971,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-8",
+        "book": "air-fryer",
+        "ingredients": 6,
+        "steps": 5,
+        "meanConfidence": 0.984,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "thai-8",
+        "book": "thai",
+        "ingredients": 22,
+        "steps": 10,
+        "meanConfidence": 0.969,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-8",
+        "book": "dessert",
+        "ingredients": 8,
+        "steps": 9,
+        "meanConfidence": 0.969,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "pizza-8",
+        "book": "pizza",
+        "ingredients": 23,
+        "steps": 4,
+        "meanConfidence": 0.972,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "lowcal-8",
+        "book": "low-calorie",
+        "ingredients": 17,
+        "steps": 7,
+        "meanConfidence": 0.967,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-9",
+        "book": "air-fryer",
+        "ingredients": 8,
+        "steps": 5,
+        "meanConfidence": 0.988,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-9",
+        "book": "thai",
+        "ingredients": 19,
+        "steps": 9,
+        "meanConfidence": 0.971,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-9",
+        "book": "dessert",
+        "ingredients": 14,
+        "steps": 9,
+        "meanConfidence": 0.979,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "pizza-9",
+        "book": "pizza",
+        "ingredients": 19,
+        "steps": 7,
+        "meanConfidence": 0.975,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "lowcal-9",
+        "book": "low-calorie",
+        "ingredients": 17,
+        "steps": 7,
+        "meanConfidence": 0.97,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-10",
+        "book": "air-fryer",
+        "ingredients": 12,
+        "steps": 5,
+        "meanConfidence": 0.98,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "thai-10",
+        "book": "thai",
+        "ingredients": 19,
+        "steps": 9,
+        "meanConfidence": 0.971,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-10",
+        "book": "dessert",
+        "ingredients": 15,
+        "steps": 9,
+        "meanConfidence": 0.976,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "pizza-10",
+        "book": "pizza",
+        "ingredients": 20,
+        "steps": 5,
+        "meanConfidence": 0.967,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "lowcal-10",
+        "book": "low-calorie",
+        "ingredients": 17,
+        "steps": 6,
+        "meanConfidence": 0.966,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-11",
+        "book": "air-fryer",
+        "ingredients": 9,
+        "steps": 4,
+        "meanConfidence": 0.983,
+        "lowConfidenceLines": 2,
+        "structured": true
+      },
+      {
+        "id": "thai-11",
+        "book": "thai",
+        "ingredients": 21,
+        "steps": 9,
+        "meanConfidence": 0.972,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-11",
+        "book": "dessert",
+        "ingredients": 11,
+        "steps": 9,
+        "meanConfidence": 0.974,
+        "lowConfidenceLines": 2,
+        "structured": true
+      },
+      {
+        "id": "pizza-11",
+        "book": "pizza",
+        "ingredients": 21,
+        "steps": 6,
+        "meanConfidence": 0.975,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "lowcal-11",
+        "book": "low-calorie",
+        "ingredients": 20,
+        "steps": 7,
+        "meanConfidence": 0.946,
+        "lowConfidenceLines": 5,
+        "structured": true
+      },
+      {
+        "id": "airfryer-12",
+        "book": "air-fryer",
+        "ingredients": 6,
+        "steps": 6,
+        "meanConfidence": 0.987,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "thai-12",
+        "book": "thai",
+        "ingredients": 19,
+        "steps": 8,
+        "meanConfidence": 0.961,
+        "lowConfidenceLines": 2,
+        "structured": true
+      },
+      {
+        "id": "dessert-12",
+        "book": "dessert",
+        "ingredients": 13,
+        "steps": 7,
+        "meanConfidence": 0.984,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "pizza-12",
+        "book": "pizza",
+        "ingredients": 21,
+        "steps": 5,
+        "meanConfidence": 0.977,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "lowcal-12",
+        "book": "low-calorie",
+        "ingredients": 19,
+        "steps": 7,
+        "meanConfidence": 0.956,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-13",
+        "book": "air-fryer",
+        "ingredients": 8,
+        "steps": 5,
+        "meanConfidence": 0.991,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-13",
+        "book": "thai",
+        "ingredients": 18,
+        "steps": 12,
+        "meanConfidence": 0.979,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-13",
+        "book": "dessert",
+        "ingredients": 14,
+        "steps": 8,
+        "meanConfidence": 0.982,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "pizza-13",
+        "book": "pizza",
+        "ingredients": 20,
+        "steps": 5,
+        "meanConfidence": 0.976,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "lowcal-13",
+        "book": "low-calorie",
+        "ingredients": 19,
+        "steps": 7,
+        "meanConfidence": 0.949,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "airfryer-14",
+        "book": "air-fryer",
+        "ingredients": 8,
+        "steps": 5,
+        "meanConfidence": 0.984,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "thai-14",
+        "book": "thai",
+        "ingredients": 20,
+        "steps": 8,
+        "meanConfidence": 0.971,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-14",
+        "book": "dessert",
+        "ingredients": 17,
+        "steps": 7,
+        "meanConfidence": 0.976,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "pizza-14",
+        "book": "pizza",
+        "ingredients": 19,
+        "steps": 5,
+        "meanConfidence": 0.975,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "lowcal-14",
+        "book": "low-calorie",
+        "ingredients": 17,
+        "steps": 6,
+        "meanConfidence": 0.968,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-15",
+        "book": "air-fryer",
+        "ingredients": 6,
+        "steps": 5,
+        "meanConfidence": 0.988,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "thai-15",
+        "book": "thai",
+        "ingredients": 21,
+        "steps": 10,
+        "meanConfidence": 0.971,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-15",
+        "book": "dessert",
+        "ingredients": 16,
+        "steps": 8,
+        "meanConfidence": 0.982,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "pizza-15",
+        "book": "pizza",
+        "ingredients": 23,
+        "steps": 5,
+        "meanConfidence": 0.972,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "lowcal-15",
+        "book": "low-calorie",
+        "ingredients": 15,
+        "steps": 7,
+        "meanConfidence": 0.967,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-16",
+        "book": "air-fryer",
+        "ingredients": 5,
+        "steps": 5,
+        "meanConfidence": 0.993,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-16",
+        "book": "thai",
+        "ingredients": 18,
+        "steps": 9,
+        "meanConfidence": 0.968,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "dessert-16",
+        "book": "dessert",
+        "ingredients": 21,
+        "steps": 7,
+        "meanConfidence": 0.973,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "pizza-16",
+        "book": "pizza",
+        "ingredients": 26,
+        "steps": 4,
+        "meanConfidence": 0.971,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "lowcal-16",
+        "book": "low-calorie",
+        "ingredients": 16,
+        "steps": 6,
+        "meanConfidence": 0.968,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "airfryer-17",
+        "book": "air-fryer",
+        "ingredients": 10,
+        "steps": 5,
+        "meanConfidence": 0.986,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "thai-17",
+        "book": "thai",
+        "ingredients": 17,
+        "steps": 8,
+        "meanConfidence": 0.973,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-17",
+        "book": "dessert",
+        "ingredients": 9,
+        "steps": 8,
+        "meanConfidence": 0.982,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "pizza-17",
+        "book": "pizza",
+        "ingredients": 21,
+        "steps": 4,
+        "meanConfidence": 0.961,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "lowcal-17",
+        "book": "low-calorie",
+        "ingredients": 15,
+        "steps": 7,
+        "meanConfidence": 0.96,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-18",
+        "book": "air-fryer",
+        "ingredients": 11,
+        "steps": 5,
+        "meanConfidence": 0.985,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-18",
+        "book": "thai",
+        "ingredients": 17,
+        "steps": 11,
+        "meanConfidence": 0.972,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-18",
+        "book": "dessert",
+        "ingredients": 13,
+        "steps": 9,
+        "meanConfidence": 0.975,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "pizza-18",
+        "book": "pizza",
+        "ingredients": 26,
+        "steps": 6,
+        "meanConfidence": 0.968,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "lowcal-18",
+        "book": "low-calorie",
+        "ingredients": 15,
+        "steps": 6,
+        "meanConfidence": 0.954,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "airfryer-19",
+        "book": "air-fryer",
+        "ingredients": 12,
+        "steps": 3,
+        "meanConfidence": 0.991,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-19",
+        "book": "thai",
+        "ingredients": 17,
+        "steps": 10,
+        "meanConfidence": 0.972,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-19",
+        "book": "dessert",
+        "ingredients": 16,
+        "steps": 7,
+        "meanConfidence": 0.983,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "pizza-19",
+        "book": "pizza",
+        "ingredients": 22,
+        "steps": 6,
+        "meanConfidence": 0.961,
+        "lowConfidenceLines": 2,
+        "structured": true
+      },
+      {
+        "id": "lowcal-19",
+        "book": "low-calorie",
+        "ingredients": 17,
+        "steps": 7,
+        "meanConfidence": 0.945,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "airfryer-20",
+        "book": "air-fryer",
+        "ingredients": 6,
+        "steps": 5,
+        "meanConfidence": 0.986,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "thai-20",
+        "book": "thai",
+        "ingredients": 13,
+        "steps": 10,
+        "meanConfidence": 0.971,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-20",
+        "book": "dessert",
+        "ingredients": 14,
+        "steps": 9,
+        "meanConfidence": 0.982,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "pizza-20",
+        "book": "pizza",
+        "ingredients": 22,
+        "steps": 8,
+        "meanConfidence": 0.972,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "lowcal-20",
+        "book": "low-calorie",
+        "ingredients": 15,
+        "steps": 7,
+        "meanConfidence": 0.956,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "airfryer-21",
+        "book": "air-fryer",
+        "ingredients": 8,
+        "steps": 3,
+        "meanConfidence": 0.981,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "thai-21",
+        "book": "thai",
+        "ingredients": 16,
+        "steps": 8,
+        "meanConfidence": 0.97,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-21",
+        "book": "dessert",
+        "ingredients": 14,
+        "steps": 8,
+        "meanConfidence": 0.98,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "pizza-21",
+        "book": "pizza",
+        "ingredients": 22,
+        "steps": 6,
+        "meanConfidence": 0.974,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "lowcal-21",
+        "book": "low-calorie",
+        "ingredients": 15,
+        "steps": 7,
+        "meanConfidence": 0.95,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-22",
+        "book": "air-fryer",
+        "ingredients": 10,
+        "steps": 5,
+        "meanConfidence": 0.986,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-22",
+        "book": "thai",
+        "ingredients": 22,
+        "steps": 10,
+        "meanConfidence": 0.973,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-22",
+        "book": "dessert",
+        "ingredients": 15,
+        "steps": 8,
+        "meanConfidence": 0.982,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "pizza-22",
+        "book": "pizza",
+        "ingredients": 23,
+        "steps": 4,
+        "meanConfidence": 0.978,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "lowcal-22",
+        "book": "low-calorie",
+        "ingredients": 14,
+        "steps": 6,
+        "meanConfidence": 0.963,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "airfryer-23",
+        "book": "air-fryer",
+        "ingredients": 12,
+        "steps": 6,
+        "meanConfidence": 0.979,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-23",
+        "book": "thai",
+        "ingredients": 20,
+        "steps": 9,
+        "meanConfidence": 0.969,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "dessert-23",
+        "book": "dessert",
+        "ingredients": 14,
+        "steps": 7,
+        "meanConfidence": 0.978,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "pizza-23",
+        "book": "pizza",
+        "ingredients": 22,
+        "steps": 4,
+        "meanConfidence": 0.973,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "lowcal-23",
+        "book": "low-calorie",
+        "ingredients": 12,
+        "steps": 6,
+        "meanConfidence": 0.973,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-24",
+        "book": "air-fryer",
+        "ingredients": 9,
+        "steps": 5,
+        "meanConfidence": 0.987,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-24",
+        "book": "thai",
+        "ingredients": 21,
+        "steps": 11,
+        "meanConfidence": 0.975,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-24",
+        "book": "dessert",
+        "ingredients": 15,
+        "steps": 8,
+        "meanConfidence": 0.979,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "pizza-24",
+        "book": "pizza",
+        "ingredients": 19,
+        "steps": 5,
+        "meanConfidence": 0.975,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "lowcal-24",
+        "book": "low-calorie",
+        "ingredients": 15,
+        "steps": 6,
+        "meanConfidence": 0.96,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "airfryer-25",
+        "book": "air-fryer",
+        "ingredients": 9,
+        "steps": 2,
+        "meanConfidence": 0.982,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "thai-25",
+        "book": "thai",
+        "ingredients": 19,
+        "steps": 10,
+        "meanConfidence": 0.978,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-25",
+        "book": "dessert",
+        "ingredients": 14,
+        "steps": 8,
+        "meanConfidence": 0.978,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "pizza-25",
+        "book": "pizza",
+        "ingredients": 22,
+        "steps": 4,
+        "meanConfidence": 0.956,
+        "lowConfidenceLines": 3,
+        "structured": true
+      },
+      {
+        "id": "lowcal-25",
+        "book": "low-calorie",
+        "ingredients": 11,
+        "steps": 6,
+        "meanConfidence": 0.957,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-26",
+        "book": "air-fryer",
+        "ingredients": 5,
+        "steps": 5,
+        "meanConfidence": 0.985,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-26",
+        "book": "thai",
+        "ingredients": 21,
+        "steps": 10,
+        "meanConfidence": 0.975,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-26",
+        "book": "dessert",
+        "ingredients": 14,
+        "steps": 8,
+        "meanConfidence": 0.981,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "pizza-26",
+        "book": "pizza",
+        "ingredients": 22,
+        "steps": 5,
+        "meanConfidence": 0.969,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "lowcal-26",
+        "book": "low-calorie",
+        "ingredients": 10,
+        "steps": 7,
+        "meanConfidence": 0.949,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-27",
+        "book": "air-fryer",
+        "ingredients": 9,
+        "steps": 2,
+        "meanConfidence": 0.988,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-27",
+        "book": "thai",
+        "ingredients": 23,
+        "steps": 10,
+        "meanConfidence": 0.974,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-27",
+        "book": "dessert",
+        "ingredients": 15,
+        "steps": 10,
+        "meanConfidence": 0.98,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "pizza-27",
+        "book": "pizza",
+        "ingredients": 16,
+        "steps": 4,
+        "meanConfidence": 0.972,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "lowcal-27",
+        "book": "low-calorie",
+        "ingredients": 12,
+        "steps": 6,
+        "meanConfidence": 0.967,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-28",
+        "book": "air-fryer",
+        "ingredients": 5,
+        "steps": 3,
+        "meanConfidence": 0.991,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-28",
+        "book": "thai",
+        "ingredients": 23,
+        "steps": 9,
+        "meanConfidence": 0.962,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "dessert-28",
+        "book": "dessert",
+        "ingredients": 20,
+        "steps": 8,
+        "meanConfidence": 0.979,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "pizza-28",
+        "book": "pizza",
+        "ingredients": 18,
+        "steps": 6,
+        "meanConfidence": 0.974,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "lowcal-28",
+        "book": "low-calorie",
+        "ingredients": 9,
+        "steps": 5,
+        "meanConfidence": 0.966,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-29",
+        "book": "air-fryer",
+        "ingredients": 9,
+        "steps": 4,
+        "meanConfidence": 0.985,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-29",
+        "book": "thai",
+        "ingredients": 21,
+        "steps": 10,
+        "meanConfidence": 0.974,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-29",
+        "book": "dessert",
+        "ingredients": 13,
+        "steps": 8,
+        "meanConfidence": 0.971,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "pizza-29",
+        "book": "pizza",
+        "ingredients": 12,
+        "steps": 4,
+        "meanConfidence": 0.978,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "lowcal-29",
+        "book": "low-calorie",
+        "ingredients": 10,
+        "steps": 6,
+        "meanConfidence": 0.972,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-30",
+        "book": "air-fryer",
+        "ingredients": 7,
+        "steps": 3,
+        "meanConfidence": 0.986,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-30",
+        "book": "thai",
+        "ingredients": 22,
+        "steps": 11,
+        "meanConfidence": 0.971,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "dessert-30",
+        "book": "dessert",
+        "ingredients": 23,
+        "steps": 6,
+        "meanConfidence": 0.984,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "pizza-30",
+        "book": "pizza",
+        "ingredients": 18,
+        "steps": 6,
+        "meanConfidence": 0.974,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "lowcal-30",
+        "book": "low-calorie",
+        "ingredients": 9,
+        "steps": 6,
+        "meanConfidence": 0.963,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-31",
+        "book": "air-fryer",
+        "ingredients": 4,
+        "steps": 2,
+        "meanConfidence": 0.987,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-31",
+        "book": "thai",
+        "ingredients": 24,
+        "steps": 5,
+        "meanConfidence": 0.975,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-32",
+        "book": "air-fryer",
+        "ingredients": 12,
+        "steps": 1,
+        "meanConfidence": 0.99,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-32",
+        "book": "thai",
+        "ingredients": 23,
+        "steps": 10,
+        "meanConfidence": 0.973,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-33",
+        "book": "air-fryer",
+        "ingredients": 9,
+        "steps": 1,
+        "meanConfidence": 0.984,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-33",
+        "book": "thai",
+        "ingredients": 23,
+        "steps": 10,
+        "meanConfidence": 0.967,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "airfryer-34",
+        "book": "air-fryer",
+        "ingredients": 12,
+        "steps": 1,
+        "meanConfidence": 0.983,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "thai-34",
+        "book": "thai",
+        "ingredients": 28,
+        "steps": 7,
+        "meanConfidence": 0.972,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-35",
+        "book": "air-fryer",
+        "ingredients": 10,
+        "steps": 2,
+        "meanConfidence": 0.99,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-35",
+        "book": "thai",
+        "ingredients": 24,
+        "steps": 6,
+        "meanConfidence": 0.969,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-36",
+        "book": "air-fryer",
+        "ingredients": 9,
+        "steps": 2,
+        "meanConfidence": 0.976,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "thai-36",
+        "book": "thai",
+        "ingredients": 22,
+        "steps": 8,
+        "meanConfidence": 0.974,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-37",
+        "book": "air-fryer",
+        "ingredients": 10,
+        "steps": 1,
+        "meanConfidence": 0.993,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-37",
+        "book": "thai",
+        "ingredients": 22,
+        "steps": 10,
+        "meanConfidence": 0.97,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-38",
+        "book": "air-fryer",
+        "ingredients": 8,
+        "steps": 5,
+        "meanConfidence": 0.978,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "thai-38",
+        "book": "thai",
+        "ingredients": 22,
+        "steps": 11,
+        "meanConfidence": 0.971,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-39",
+        "book": "air-fryer",
+        "ingredients": 10,
+        "steps": 4,
+        "meanConfidence": 0.985,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-39",
+        "book": "thai",
+        "ingredients": 21,
+        "steps": 11,
+        "meanConfidence": 0.974,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-40",
+        "book": "air-fryer",
+        "ingredients": 8,
+        "steps": 3,
+        "meanConfidence": 0.988,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-40",
+        "book": "thai",
+        "ingredients": 22,
+        "steps": 11,
+        "meanConfidence": 0.97,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-41",
+        "book": "air-fryer",
+        "ingredients": 9,
+        "steps": 1,
+        "meanConfidence": 0.99,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-41",
+        "book": "thai",
+        "ingredients": 20,
+        "steps": 11,
+        "meanConfidence": 0.968,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "airfryer-42",
+        "book": "air-fryer",
+        "ingredients": 12,
+        "steps": 1,
+        "meanConfidence": 0.965,
+        "lowConfidenceLines": 2,
+        "structured": true
+      },
+      {
+        "id": "thai-42",
+        "book": "thai",
+        "ingredients": 18,
+        "steps": 11,
+        "meanConfidence": 0.971,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-43",
+        "book": "air-fryer",
+        "ingredients": 10,
+        "steps": 4,
+        "meanConfidence": 0.976,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "thai-43",
+        "book": "thai",
+        "ingredients": 23,
+        "steps": 10,
+        "meanConfidence": 0.972,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-44",
+        "book": "air-fryer",
+        "ingredients": 10,
+        "steps": 5,
+        "meanConfidence": 0.973,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "thai-44",
+        "book": "thai",
+        "ingredients": 25,
+        "steps": 11,
+        "meanConfidence": 0.967,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-45",
+        "book": "air-fryer",
+        "ingredients": 8,
+        "steps": 5,
+        "meanConfidence": 0.989,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-45",
+        "book": "thai",
+        "ingredients": 21,
+        "steps": 11,
+        "meanConfidence": 0.973,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-46",
+        "book": "air-fryer",
+        "ingredients": 8,
+        "steps": 5,
+        "meanConfidence": 0.971,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "thai-46",
+        "book": "thai",
+        "ingredients": 20,
+        "steps": 11,
+        "meanConfidence": 0.972,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-47",
+        "book": "air-fryer",
+        "ingredients": 9,
+        "steps": 5,
+        "meanConfidence": 0.977,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-47",
+        "book": "thai",
+        "ingredients": 15,
+        "steps": 1,
+        "meanConfidence": 0.972,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-48",
+        "book": "air-fryer",
+        "ingredients": 8,
+        "steps": 4,
+        "meanConfidence": 0.955,
+        "lowConfidenceLines": 3,
+        "structured": true
+      },
+      {
+        "id": "thai-48",
+        "book": "thai",
+        "ingredients": 16,
+        "steps": 11,
+        "meanConfidence": 0.969,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-49",
+        "book": "air-fryer",
+        "ingredients": 8,
+        "steps": 5,
+        "meanConfidence": 0.977,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "thai-49",
+        "book": "thai",
+        "ingredients": 21,
+        "steps": 11,
+        "meanConfidence": 0.972,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-50",
+        "book": "air-fryer",
+        "ingredients": 10,
+        "steps": 5,
+        "meanConfidence": 0.985,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-50",
+        "book": "thai",
+        "ingredients": 14,
+        "steps": 9,
+        "meanConfidence": 0.973,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-51",
+        "book": "air-fryer",
+        "ingredients": 11,
+        "steps": 4,
+        "meanConfidence": 0.984,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "thai-51",
+        "book": "thai",
+        "ingredients": 18,
+        "steps": 7,
+        "meanConfidence": 0.975,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-52",
+        "book": "air-fryer",
+        "ingredients": 5,
+        "steps": 4,
+        "meanConfidence": 0.99,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "thai-52",
+        "book": "thai",
+        "ingredients": 19,
+        "steps": 10,
+        "meanConfidence": 0.972,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-53",
+        "book": "air-fryer",
+        "ingredients": 7,
+        "steps": 4,
+        "meanConfidence": 0.99,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-54",
+        "book": "air-fryer",
+        "ingredients": 9,
+        "steps": 4,
+        "meanConfidence": 0.981,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "airfryer-55",
+        "book": "air-fryer",
+        "ingredients": 5,
+        "steps": 4,
+        "meanConfidence": 0.99,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-56",
+        "book": "air-fryer",
+        "ingredients": 8,
+        "steps": 4,
+        "meanConfidence": 0.981,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "airfryer-57",
+        "book": "air-fryer",
+        "ingredients": 9,
+        "steps": 4,
+        "meanConfidence": 0.97,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "airfryer-58",
+        "book": "air-fryer",
+        "ingredients": 8,
+        "steps": 1,
+        "meanConfidence": 0.994,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-59",
+        "book": "air-fryer",
+        "ingredients": 9,
+        "steps": 5,
+        "meanConfidence": 0.982,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-60",
+        "book": "air-fryer",
+        "ingredients": 12,
+        "steps": 5,
+        "meanConfidence": 0.973,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "airfryer-61",
+        "book": "air-fryer",
+        "ingredients": 9,
+        "steps": 3,
+        "meanConfidence": 0.982,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "airfryer-62",
+        "book": "air-fryer",
+        "ingredients": 11,
+        "steps": 1,
+        "meanConfidence": 0.992,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-63",
+        "book": "air-fryer",
+        "ingredients": 7,
+        "steps": 1,
+        "meanConfidence": 0.985,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-64",
+        "book": "air-fryer",
+        "ingredients": 12,
+        "steps": 2,
+        "meanConfidence": 0.989,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-65",
+        "book": "air-fryer",
+        "ingredients": 6,
+        "steps": 4,
+        "meanConfidence": 0.993,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-66",
+        "book": "air-fryer",
+        "ingredients": 10,
+        "steps": 4,
+        "meanConfidence": 0.995,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-67",
+        "book": "air-fryer",
+        "ingredients": 9,
+        "steps": 5,
+        "meanConfidence": 0.99,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-68",
+        "book": "air-fryer",
+        "ingredients": 6,
+        "steps": 5,
+        "meanConfidence": 0.993,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-69",
+        "book": "air-fryer",
+        "ingredients": 8,
+        "steps": 5,
+        "meanConfidence": 0.985,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-70",
+        "book": "air-fryer",
+        "ingredients": 12,
+        "steps": 4,
+        "meanConfidence": 0.992,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-71",
+        "book": "air-fryer",
+        "ingredients": 8,
+        "steps": 4,
+        "meanConfidence": 0.989,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-72",
+        "book": "air-fryer",
+        "ingredients": 9,
+        "steps": 3,
+        "meanConfidence": 0.989,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-73",
+        "book": "air-fryer",
+        "ingredients": 10,
+        "steps": 2,
+        "meanConfidence": 0.993,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-74",
+        "book": "air-fryer",
+        "ingredients": 12,
+        "steps": 4,
+        "meanConfidence": 0.986,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-75",
+        "book": "air-fryer",
+        "ingredients": 10,
+        "steps": 5,
+        "meanConfidence": 0.982,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-76",
+        "book": "air-fryer",
+        "ingredients": 12,
+        "steps": 5,
+        "meanConfidence": 0.977,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "airfryer-77",
+        "book": "air-fryer",
+        "ingredients": 7,
+        "steps": 5,
+        "meanConfidence": 0.985,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-78",
+        "book": "air-fryer",
+        "ingredients": 12,
+        "steps": 5,
+        "meanConfidence": 0.99,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-79",
+        "book": "air-fryer",
+        "ingredients": 7,
+        "steps": 5,
+        "meanConfidence": 0.974,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "airfryer-80",
+        "book": "air-fryer",
+        "ingredients": 10,
+        "steps": 4,
+        "meanConfidence": 0.992,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-81",
+        "book": "air-fryer",
+        "ingredients": 10,
+        "steps": 5,
+        "meanConfidence": 0.978,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-82",
+        "book": "air-fryer",
+        "ingredients": 7,
+        "steps": 5,
+        "meanConfidence": 0.982,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-83",
+        "book": "air-fryer",
+        "ingredients": 13,
+        "steps": 5,
+        "meanConfidence": 0.985,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-84",
+        "book": "air-fryer",
+        "ingredients": 7,
+        "steps": 5,
+        "meanConfidence": 0.994,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-85",
+        "book": "air-fryer",
+        "ingredients": 6,
+        "steps": 5,
+        "meanConfidence": 0.987,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-86",
+        "book": "air-fryer",
+        "ingredients": 8,
+        "steps": 5,
+        "meanConfidence": 0.99,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-87",
+        "book": "air-fryer",
+        "ingredients": 8,
+        "steps": 5,
+        "meanConfidence": 0.99,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-88",
+        "book": "air-fryer",
+        "ingredients": 7,
+        "steps": 5,
+        "meanConfidence": 0.989,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-89",
+        "book": "air-fryer",
+        "ingredients": 15,
+        "steps": 5,
+        "meanConfidence": 0.979,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "airfryer-90",
+        "book": "air-fryer",
+        "ingredients": 7,
+        "steps": 5,
+        "meanConfidence": 0.97,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "airfryer-91",
+        "book": "air-fryer",
+        "ingredients": 12,
+        "steps": 5,
+        "meanConfidence": 0.985,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-92",
+        "book": "air-fryer",
+        "ingredients": 9,
+        "steps": 4,
+        "meanConfidence": 0.986,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-93",
+        "book": "air-fryer",
+        "ingredients": 7,
+        "steps": 4,
+        "meanConfidence": 0.979,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-94",
+        "book": "air-fryer",
+        "ingredients": 6,
+        "steps": 5,
+        "meanConfidence": 0.984,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-95",
+        "book": "air-fryer",
+        "ingredients": 8,
+        "steps": 5,
+        "meanConfidence": 0.99,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-96",
+        "book": "air-fryer",
+        "ingredients": 11,
+        "steps": 4,
+        "meanConfidence": 0.995,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-97",
+        "book": "air-fryer",
+        "ingredients": 7,
+        "steps": 5,
+        "meanConfidence": 0.986,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-98",
+        "book": "air-fryer",
+        "ingredients": 7,
+        "steps": 4,
+        "meanConfidence": 0.993,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-99",
+        "book": "air-fryer",
+        "ingredients": 12,
+        "steps": 5,
+        "meanConfidence": 0.986,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-100",
+        "book": "air-fryer",
+        "ingredients": 9,
+        "steps": 6,
+        "meanConfidence": 0.988,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-101",
+        "book": "air-fryer",
+        "ingredients": 8,
+        "steps": 4,
+        "meanConfidence": 0.949,
+        "lowConfidenceLines": 3,
+        "structured": true
+      },
+      {
+        "id": "airfryer-102",
+        "book": "air-fryer",
+        "ingredients": 13,
+        "steps": 4,
+        "meanConfidence": 0.973,
+        "lowConfidenceLines": 1,
+        "structured": true
+      },
+      {
+        "id": "airfryer-103",
+        "book": "air-fryer",
+        "ingredients": 5,
+        "steps": 5,
+        "meanConfidence": 0.991,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-104",
+        "book": "air-fryer",
+        "ingredients": 9,
+        "steps": 4,
+        "meanConfidence": 0.992,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-105",
+        "book": "air-fryer",
+        "ingredients": 8,
+        "steps": 5,
+        "meanConfidence": 0.992,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-106",
+        "book": "air-fryer",
+        "ingredients": 5,
+        "steps": 5,
+        "meanConfidence": 0.994,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-107",
+        "book": "air-fryer",
+        "ingredients": 5,
+        "steps": 5,
+        "meanConfidence": 0.991,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-108",
+        "book": "air-fryer",
+        "ingredients": 8,
+        "steps": 5,
+        "meanConfidence": 0.99,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-109",
+        "book": "air-fryer",
+        "ingredients": 7,
+        "steps": 5,
+        "meanConfidence": 0.985,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-110",
+        "book": "air-fryer",
+        "ingredients": 10,
+        "steps": 5,
+        "meanConfidence": 0.988,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-111",
+        "book": "air-fryer",
+        "ingredients": 9,
+        "steps": 4,
+        "meanConfidence": 0.993,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-112",
+        "book": "air-fryer",
+        "ingredients": 7,
+        "steps": 5,
+        "meanConfidence": 0.991,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-113",
+        "book": "air-fryer",
+        "ingredients": 11,
+        "steps": 5,
+        "meanConfidence": 0.969,
+        "lowConfidenceLines": 2,
+        "structured": true
+      },
+      {
+        "id": "airfryer-114",
+        "book": "air-fryer",
+        "ingredients": 7,
+        "steps": 1,
+        "meanConfidence": 0.987,
+        "lowConfidenceLines": 0,
+        "structured": true
+      },
+      {
+        "id": "airfryer-115",
+        "book": "air-fryer",
+        "ingredients": 14,
+        "steps": 6,
+        "meanConfidence": 0.992,
+        "lowConfidenceLines": 0,
+        "structured": true
+      }
+    ],
+    "visuallySpotChecked": [
+      "dessert-1",
+      "dessert-12",
+      "lowcal-11",
+      "lowcal-12",
+      "thai-12"
+    ],
+    "spotCheckScope": "Five source pages visually compared; this is not a full manual verification."
+  }
 }

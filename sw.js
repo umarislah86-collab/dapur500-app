@@ -1,4 +1,4 @@
-const SHELL='dapur500-shell-v1',BOOKS='dapur500-books-v1';
+const SHELL='dapur500-shell-v2',BOOKS='dapur500-books-v1';
 const CORE=['./','index.html','app.js','style.css','recipes.json','manifest.webmanifest','icon.svg','icon-192.png','icon-512.png','asset-manifest.json'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(SHELL).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting()));});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('dapur500-')&&![SHELL,BOOKS].includes(k)).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));});
